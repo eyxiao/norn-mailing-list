@@ -1,5 +1,7 @@
 ### Norn Mailing List System
 
+This was my final project for 6.031 Elements of Software Construction, taken in fall 2019. 
+
 #### Project Description
 
 Mailing list systems, like MIT’s Moira, are great in part because they are recursive: lists can contain other lists. So course6-all can include course6-students and course6-faculty, and course6-students can include course6-undergrads, course6-grads, and course6-alumni.
