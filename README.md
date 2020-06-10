@@ -2,9 +2,13 @@
 
 Final project for 6.031 Elements of Software Construction, taken in fall 2019. Norn is a system that helps users execute sequences of operations (e.g. mailing list definitions, set intersections and unions of different mailing lists) on mailing lists so users can easily and efficiently obtain the correct set of emails they need. 
 
-Some additional features that Norn supports are: executing operations in parallel for better performance, detecting and warning users about mailing list cycles in their inputted expressions, and loading and saving the state of the current list definitions and expressions. It also provides a web interface that displays a broken-down visualization of the most recently evaluated list expression.
+Some additional features that Norn supports are: 
+- Executing operations in parallel for better performance
+- Detecting and warning users about mailing list cycles in their inputted expressions
+- Loading and saving the state of the current list definitions and expressions. 
+- Web interface that displays a broken-down visualization of the most recently evaluated list expression.
 
-The key technical concepts covered in this project are: concurrency and thread-safety, recursive data types, parsing and abstract syntax trees, regular expressions, and sockets and networking. The key software programming concepts focused on are: test first programming (see `/test/` for the extensive test suite), and of course, Max Goldman's favorite: SFB/ETU/RFC (safe from bugs, easy to understand, and ready for change). :P
+The key technical concepts covered in this project are: **concurrency** and **thread-safety**, **recursive data types** , **parsing** and abstract syntax trees, **regular expressions**, and **sockets**/**networking**. The key software programming concepts focused on are: test first programming (see `/test/` for the extensive test suite), and of course, Max Goldman's favorite: SFB/ETU/RFC (safe from bugs, easy to understand, and ready for change). :P
 
 ### Project Description
 
